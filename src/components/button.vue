@@ -8,10 +8,9 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from "vue-property-decorator";
-import { component } from "vue/types/umd";
 
 @Component({
-  name: "Button",
+  name: "Button"
 })
 export default class Button extends Vue {
   @Prop() public name!: string;
