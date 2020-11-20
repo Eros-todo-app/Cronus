@@ -5,17 +5,17 @@
 <script lang="ts">
 import { Component, Prop, Vue } from "vue-property-decorator";
 
-interface todo {
+interface Todo {
   name: string;
   done: boolean;
   due: Date;
 }
 
 @Component({
-  name: "Frame",
+  name: "Frame"
 })
 export default class Frame extends Vue {
-  @Prop() public todos!: todo[];
+  @Prop() public todos!: Todo[];
 }
 </script>
 
