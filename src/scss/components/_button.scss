@@ -1,0 +1,20 @@
+@use 'utils/colors' as c;
+
+.Button button {
+  width: 20rem;
+  height: 2.5rem;
+  border-radius: 8px;
+  background: c.$main_green;
+  border: none;
+  transition: all ease 0.3s;
+  cursor: pointer;
+  color: c.$text_black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.Button button:hover {
+  background: c.$main_green-faded;
+}
+

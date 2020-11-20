@@ -1,0 +1,17 @@
+@use 'utils/colors' as c;
+
+#app,
+body,
+html {
+  font-size: 1em;
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: c.$bg_main;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  min-height: 100vh;
+  width: 100%;
+}

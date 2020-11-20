@@ -1,0 +1,8 @@
+@use 'colors' as c;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+h1,
+p,
+a {
+  color: c.$text_main;
+}

@@ -1,0 +1,11 @@
+@use "utils/colors";
+@use "utils/typography";
+@use "base/root";
+
+#app {
+  padding: 2rem 12rem;
+
+  p {
+    font-size: 1.1em;
+  }
+}

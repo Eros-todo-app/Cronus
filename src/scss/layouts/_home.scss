@@ -1,0 +1,23 @@
+.home {
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  width: 100%;
+  padding: 0rem 6rem;
+
+  .info {
+    h1 {
+      font-size: 5em;
+      line-height: 1.2em;
+      margin: 0;
+    }
+
+    p {
+      width: 50%;
+    }
+
+    .Button button {
+      margin-top: 1%;
+    }
+  }
+}
