@@ -6,3 +6,11 @@ p,
 a {
   color: c.$text_main;
 }
+h1,
+p {
+  margin: 0;
+  padding: 2% 0%;
+}
+
+$large_header: 5em;
+$bread_text: 1em;
