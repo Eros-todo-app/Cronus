@@ -1,0 +1,19 @@
+@use 'utils/typography' as t;
+
+.page-not-found {
+  height: 80vh;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    font-size: t.$large_header;
+  }
+
+  p {
+    font-size: t.$bread_text;
+  }
+}

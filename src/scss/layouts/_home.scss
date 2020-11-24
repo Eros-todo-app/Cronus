@@ -1,11 +1,21 @@
-.home {
+@use 'utils/colors' as c;
+@use 'base/root' as d;
+
+.home .landing {
   display: flex;
-  align-items: center;
   height: 80vh;
-  width: 100%;
-  padding: 0rem 6rem;
+  width: 100vw;
+  align-items: space-between;
+  justify-content: center;
+  margin-top: 10vh;
+
+  .Phone {
+    margin-right: 15%;
+  }
 
   .info {
+    margin-top: 5%;
+    margin-left: 15%;
     h1 {
       font-size: 5em;
       line-height: 1.2em;
@@ -14,10 +24,22 @@
 
     p {
       width: 50%;
-    }
-
-    .Button button {
-      margin-top: 1%;
+      padding: 0% 0 5% 0;
     }
   }
+}
+
+.home .quote-section {
+  margin-top: 5vh;
+  padding: 0rem 0rem;
+  background-color: c.$bg_alt;
+  height: 40vh;
+}
+
+.home .quote-section .quotes {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10rem 0 9rem;
 }

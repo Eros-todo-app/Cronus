@@ -13,11 +13,11 @@ import { Component, Prop, Vue } from "vue-property-decorator";
   name: "Button"
 })
 export default class Button extends Vue {
-  @Prop() public name!: string;
-  @Prop() public route!: string;
+  @Prop() private name!: string;
+  @Prop() private route!: string;
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @use "components/button";
 </style>

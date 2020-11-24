@@ -1,13 +1,23 @@
 <template>
-  <div class="404">
+  <div class="page-not-found">
     <h1>404</h1>
     <p>The page you tried to go to doesn't exist!</p>
-    <router-link to="/">Go back home</router-link>
+    <Button route="/" name="Go back home" />
   </div>
 </template>
 
 <script>
-export default {};
+import { Component, Vue } from "vue-property-decorator";
+import Button from "@/components/button.vue";
+
+@Component({
+  components: {
+    Button
+  }
+})
+export default class PageNotFound extends Vue {}
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+@use "layouts/page-not-found";
+</style>

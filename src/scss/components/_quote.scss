@@ -1,0 +1,28 @@
+@use 'utils/colors' as c;
+
+.quote {
+  background: c.$bg_main;
+  width: 22vw;
+  height: 23vh;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  padding: 1.5rem;
+  border-radius: 8px;
+  display: flex;
+
+  blockquote,
+  cite {
+    color: c.$text_main;
+    font-size: 1.1em;
+  }
+
+  blockquote {
+    margin-top: 0;
+  }
+
+  cite {
+    padding-left: 2vw;
+    padding-top: 1vh;
+  }
+}

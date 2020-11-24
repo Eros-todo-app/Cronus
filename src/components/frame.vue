@@ -1,5 +1,774 @@
 <template>
-  <div class="Frame"></div>
+  <div class="Phone">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      width="306"
+      height="637"
+      viewBox="0 0 306 637"
+    >
+      <defs>
+        <filter
+          id="Rectangle_1"
+          x="16"
+          y="341"
+          width="272"
+          height="59"
+          filterUnits="userSpaceOnUse"
+        >
+          <feOffset dy="3" input="SourceAlpha" />
+          <feGaussianBlur stdDeviation="3" result="blur" />
+          <feFlood flood-opacity="0.031" />
+          <feComposite operator="in" in2="blur" />
+          <feComposite in="SourceGraphic" />
+        </filter>
+        <filter
+          id="Rectangle_1-2"
+          x="16"
+          y="386"
+          width="272"
+          height="59"
+          filterUnits="userSpaceOnUse"
+        >
+          <feOffset dy="3" input="SourceAlpha" />
+          <feGaussianBlur stdDeviation="3" result="blur-2" />
+          <feFlood flood-opacity="0.031" />
+          <feComposite operator="in" in2="blur-2" />
+          <feComposite in="SourceGraphic" />
+        </filter>
+        <filter
+          id="Rectangle_1-3"
+          x="16"
+          y="431"
+          width="272"
+          height="59"
+          filterUnits="userSpaceOnUse"
+        >
+          <feOffset dy="3" input="SourceAlpha" />
+          <feGaussianBlur stdDeviation="3" result="blur-3" />
+          <feFlood flood-opacity="0.031" />
+          <feComposite operator="in" in2="blur-3" />
+          <feComposite in="SourceGraphic" />
+        </filter>
+        <filter
+          id="Rectangle_1-4"
+          x="16"
+          y="475"
+          width="272"
+          height="59"
+          filterUnits="userSpaceOnUse"
+        >
+          <feOffset dy="3" input="SourceAlpha" />
+          <feGaussianBlur stdDeviation="3" result="blur-4" />
+          <feFlood flood-opacity="0.031" />
+          <feComposite operator="in" in2="blur-4" />
+          <feComposite in="SourceGraphic" />
+        </filter>
+        <filter
+          id="Rectangle_1-5"
+          x="16"
+          y="520"
+          width="272"
+          height="59"
+          filterUnits="userSpaceOnUse"
+        >
+          <feOffset dy="3" input="SourceAlpha" />
+          <feGaussianBlur stdDeviation="3" result="blur-5" />
+          <feFlood flood-opacity="0.031" />
+          <feComposite operator="in" in2="blur-5" />
+          <feComposite in="SourceGraphic" />
+        </filter>
+        <filter
+          id="Rectangle_4"
+          x="16"
+          y="296"
+          width="272"
+          height="59"
+          filterUnits="userSpaceOnUse"
+        >
+          <feOffset dy="3" input="SourceAlpha" />
+          <feGaussianBlur stdDeviation="3" result="blur-6" />
+          <feFlood flood-opacity="0.031" />
+          <feComposite operator="in" in2="blur-6" />
+          <feComposite in="SourceGraphic" />
+        </filter>
+      </defs>
+      <g id="Group_6" data-name="Group 6" transform="translate(-1335 -253)">
+        <g
+          id="Path_3"
+          data-name="Path 3"
+          transform="translate(1342 260)"
+          fill="#21253d"
+        >
+          <path
+            d="M 283 626.5 L 9 626.5 C 5.661083221435547 626.5 2.522083282470703 625.1997680664063 0.1611666679382324 622.8388061523438 C -2.199749946594238 620.4779052734375 -3.5 617.3389282226563 -3.5 614 L -3.5 9 C -3.5 5.661166667938232 -2.199749946594238 2.522166728973389 0.1611666679382324 0.1611666679382324 C 2.522083282470703 -2.199749946594238 5.661083221435547 -3.5 9 -3.5 L 283 -3.5 C 286.3389282226563 -3.5 289.4779052734375 -2.199749946594238 291.8388366699219 0.1611666679382324 C 294.1997375488281 2.522166728973389 295.5 5.661166667938232 295.5 9 L 295.5 614 C 295.5 617.3389282226563 294.1997375488281 620.4779052734375 291.8388366699219 622.8388061523438 C 289.4779052734375 625.1997680664063 286.3389282226563 626.5 283 626.5 Z"
+            stroke="none"
+          />
+          <path
+            d="M 9 0 C 4.0294189453125 0 0 4.0294189453125 0 9 L 0 614 C 0 618.9705810546875 4.0294189453125 623 9 623 L 283 623 C 287.9705810546875 623 292 618.9705810546875 292 614 L 292 9 C 292 4.0294189453125 287.9705810546875 0 283 0 L 9 0 M 9 -7 L 283 -7 C 291.8224182128906 -7 299 0.1776123046875 299 9 L 299 614 C 299 622.8223876953125 291.8224182128906 630 283 630 L 9 630 C 0.177581787109375 630 -7 622.8223876953125 -7 614 L -7 9 C -7 0.1776123046875 0.177581787109375 -7 9 -7 Z"
+            stroke="none"
+            fill="#1b1e30"
+          />
+        </g>
+        <g
+          id="Icon_feather-settings"
+          data-name="Icon feather-settings"
+          transform="translate(1592.563 278.5)"
+        >
+          <path
+            id="Path_1"
+            data-name="Path 1"
+            d="M18.665,16.082A2.582,2.582,0,1,1,16.082,13.5,2.582,2.582,0,0,1,18.665,16.082Z"
+            transform="translate(-5.114 -5.114)"
+            fill="none"
+            stroke="#cfd4d8"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1"
+          />
+          <path
+            id="Path_2"
+            data-name="Path 2"
+            d="M17.338,13.551a1.42,1.42,0,0,0,.284,1.567l.052.052a1.723,1.723,0,1,1-2.436,2.436l-.052-.052a1.432,1.432,0,0,0-2.427,1.016v.146a1.722,1.722,0,0,1-3.443,0v-.077a1.42,1.42,0,0,0-.93-1.3,1.42,1.42,0,0,0-1.567.284l-.052.052a1.723,1.723,0,1,1-2.436-2.436l.052-.052a1.432,1.432,0,0,0-1.016-2.427H3.222a1.722,1.722,0,0,1,0-3.443H3.3a1.42,1.42,0,0,0,1.3-.93A1.42,1.42,0,0,0,4.315,6.82l-.052-.052A1.723,1.723,0,1,1,6.7,4.332l.052.052a1.42,1.42,0,0,0,1.567.284h.069a1.42,1.42,0,0,0,.861-1.3V3.222a1.722,1.722,0,0,1,3.443,0V3.3a1.432,1.432,0,0,0,2.427,1.016l.052-.052A1.723,1.723,0,1,1,17.605,6.7l-.052.052a1.42,1.42,0,0,0-.284,1.567v.069a1.42,1.42,0,0,0,1.3.861h.146a1.722,1.722,0,0,1,0,3.443h-.077a1.42,1.42,0,0,0-1.3.861Z"
+            fill="none"
+            stroke="#cfd4d8"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1"
+          />
+        </g>
+        <g
+          id="Component_4_1"
+          data-name="Component 4 – 1"
+          transform="translate(1360 600)"
+        >
+          <g
+            transform="matrix(1, 0, 0, 1, -25, -347)"
+            filter="url(#Rectangle_1)"
+          >
+            <rect
+              id="Rectangle_1-6"
+              data-name="Rectangle 1"
+              width="254"
+              height="41"
+              rx="8"
+              transform="translate(25 347)"
+              fill="#1b1e30"
+            />
+          </g>
+          <text
+            id="Create_app_plan"
+            data-name="Create app plan"
+            transform="translate(43.76 25.267)"
+            fill="#f8f8f8"
+            font-size="12"
+            font-family="ProductSans-Regular, Product Sans"
+          >
+            <tspan x="0" y="0">Create app plan</tspan>
+          </text>
+          <rect
+            id="Rectangle_11"
+            data-name="Rectangle 11"
+            width="27"
+            height="29"
+            rx="5"
+            transform="translate(9 6)"
+            fill="#e96d75"
+          />
+          <g id="Group_5" data-name="Group 5" transform="translate(156 6)">
+            <rect
+              id="Rectangle_2"
+              data-name="Rectangle 2"
+              width="88"
+              height="29"
+              rx="5"
+              fill="#e96d75"
+            />
+            <text
+              id="Due_25_19"
+              data-name="Due 25/19"
+              transform="translate(10 19)"
+              fill="#393939"
+              font-size="12"
+              font-family="ProductSans-Regular, Product Sans"
+            >
+              <tspan x="0" y="0">Due 25/19</tspan>
+            </text>
+            <path
+              id="Icon_awesome-calendar-alt"
+              data-name="Icon awesome-calendar-alt"
+              d="M0,8.083a.836.836,0,0,0,.836.836H6.969A.836.836,0,0,0,7.8,8.083V3.345H0ZM5.575,4.669a.21.21,0,0,1,.209-.209h.7a.21.21,0,0,1,.209.209v.7a.21.21,0,0,1-.209.209h-.7a.21.21,0,0,1-.209-.209Zm0,2.23a.21.21,0,0,1,.209-.209h.7A.21.21,0,0,1,6.69,6.9v.7a.21.21,0,0,1-.209.209h-.7A.21.21,0,0,1,5.575,7.6Zm-2.23-2.23a.21.21,0,0,1,.209-.209h.7a.21.21,0,0,1,.209.209v.7a.21.21,0,0,1-.209.209h-.7a.21.21,0,0,1-.209-.209Zm0,2.23a.21.21,0,0,1,.209-.209h.7A.21.21,0,0,1,4.46,6.9v.7a.21.21,0,0,1-.209.209h-.7A.21.21,0,0,1,3.345,7.6Zm-2.23-2.23a.21.21,0,0,1,.209-.209h.7a.21.21,0,0,1,.209.209v.7a.21.21,0,0,1-.209.209h-.7a.21.21,0,0,1-.209-.209Zm0,2.23a.21.21,0,0,1,.209-.209h.7A.21.21,0,0,1,2.23,6.9v.7a.21.21,0,0,1-.209.209h-.7A.21.21,0,0,1,1.115,7.6ZM6.969,1.115H6.132V.279A.28.28,0,0,0,5.854,0H5.3a.28.28,0,0,0-.279.279v.836H2.787V.279A.28.28,0,0,0,2.509,0H1.951a.28.28,0,0,0-.279.279v.836H.836A.836.836,0,0,0,0,1.951v.836H7.8V1.951A.836.836,0,0,0,6.969,1.115Z"
+              transform="translate(69.063 10.265)"
+              fill="#393939"
+            />
+          </g>
+        </g>
+        <g
+          id="Component_4_2"
+          data-name="Component 4 – 2"
+          transform="translate(1360 645)"
+        >
+          <g
+            transform="matrix(1, 0, 0, 1, -25, -392)"
+            filter="url(#Rectangle_1-2)"
+          >
+            <rect
+              id="Rectangle_1-7"
+              data-name="Rectangle 1"
+              width="254"
+              height="41"
+              rx="8"
+              transform="translate(25 392)"
+              fill="#1b1e30"
+            />
+          </g>
+          <text
+            id="Create_git_repo"
+            data-name="Create git repo"
+            transform="translate(43.76 25.267)"
+            fill="#f8f8f8"
+            font-size="12"
+            font-family="ProductSans-Regular, Product Sans"
+          >
+            <tspan x="0" y="0">Create git repo</tspan>
+          </text>
+          <rect
+            id="Rectangle_11-2"
+            data-name="Rectangle 11"
+            width="27"
+            height="29"
+            rx="5"
+            transform="translate(9 6)"
+            fill="#e96d75"
+          />
+          <g id="Group_5-2" data-name="Group 5" transform="translate(156 6)">
+            <rect
+              id="Rectangle_2-2"
+              data-name="Rectangle 2"
+              width="88"
+              height="29"
+              rx="5"
+              fill="#e96d75"
+            />
+            <text
+              id="Due_25_19-2"
+              data-name="Due 25/19"
+              transform="translate(10 19)"
+              fill="#393939"
+              font-size="12"
+              font-family="ProductSans-Regular, Product Sans"
+            >
+              <tspan x="0" y="0">Due 25/19</tspan>
+            </text>
+            <path
+              id="Icon_awesome-calendar-alt-2"
+              data-name="Icon awesome-calendar-alt"
+              d="M0,8.083a.836.836,0,0,0,.836.836H6.969A.836.836,0,0,0,7.8,8.083V3.345H0ZM5.575,4.669a.21.21,0,0,1,.209-.209h.7a.21.21,0,0,1,.209.209v.7a.21.21,0,0,1-.209.209h-.7a.21.21,0,0,1-.209-.209Zm0,2.23a.21.21,0,0,1,.209-.209h.7A.21.21,0,0,1,6.69,6.9v.7a.21.21,0,0,1-.209.209h-.7A.21.21,0,0,1,5.575,7.6Zm-2.23-2.23a.21.21,0,0,1,.209-.209h.7a.21.21,0,0,1,.209.209v.7a.21.21,0,0,1-.209.209h-.7a.21.21,0,0,1-.209-.209Zm0,2.23a.21.21,0,0,1,.209-.209h.7A.21.21,0,0,1,4.46,6.9v.7a.21.21,0,0,1-.209.209h-.7A.21.21,0,0,1,3.345,7.6Zm-2.23-2.23a.21.21,0,0,1,.209-.209h.7a.21.21,0,0,1,.209.209v.7a.21.21,0,0,1-.209.209h-.7a.21.21,0,0,1-.209-.209Zm0,2.23a.21.21,0,0,1,.209-.209h.7A.21.21,0,0,1,2.23,6.9v.7a.21.21,0,0,1-.209.209h-.7A.21.21,0,0,1,1.115,7.6ZM6.969,1.115H6.132V.279A.28.28,0,0,0,5.854,0H5.3a.28.28,0,0,0-.279.279v.836H2.787V.279A.28.28,0,0,0,2.509,0H1.951a.28.28,0,0,0-.279.279v.836H.836A.836.836,0,0,0,0,1.951v.836H7.8V1.951A.836.836,0,0,0,6.969,1.115Z"
+              transform="translate(69.063 10.265)"
+              fill="#393939"
+            />
+          </g>
+        </g>
+        <g
+          id="Component_4_3"
+          data-name="Component 4 – 3"
+          transform="translate(1360 690)"
+        >
+          <g
+            transform="matrix(1, 0, 0, 1, -25, -437)"
+            filter="url(#Rectangle_1-3)"
+          >
+            <rect
+              id="Rectangle_1-8"
+              data-name="Rectangle 1"
+              width="254"
+              height="41"
+              rx="8"
+              transform="translate(25 437)"
+              fill="#1b1e30"
+            />
+          </g>
+          <text
+            id="Reherse_metalli.."
+            data-name="Reherse metalli.."
+            transform="translate(43.76 25.267)"
+            fill="#f8f8f8"
+            font-size="12"
+            font-family="ProductSans-Regular, Product Sans"
+          >
+            <tspan x="0" y="0">Reherse metalli..</tspan>
+          </text>
+          <rect
+            id="Rectangle_11-3"
+            data-name="Rectangle 11"
+            width="27"
+            height="29"
+            rx="5"
+            transform="translate(9 6)"
+            fill="#e96d75"
+          />
+          <g id="Group_5-3" data-name="Group 5" transform="translate(156 6)">
+            <rect
+              id="Rectangle_2-3"
+              data-name="Rectangle 2"
+              width="88"
+              height="29"
+              rx="5"
+              fill="#e96d75"
+            />
+            <text
+              id="Due_25_19-3"
+              data-name="Due 25/19"
+              transform="translate(10 19)"
+              fill="#393939"
+              font-size="12"
+              font-family="ProductSans-Regular, Product Sans"
+            >
+              <tspan x="0" y="0">Due 25/19</tspan>
+            </text>
+            <path
+              id="Icon_awesome-calendar-alt-3"
+              data-name="Icon awesome-calendar-alt"
+              d="M0,8.083a.836.836,0,0,0,.836.836H6.969A.836.836,0,0,0,7.8,8.083V3.345H0ZM5.575,4.669a.21.21,0,0,1,.209-.209h.7a.21.21,0,0,1,.209.209v.7a.21.21,0,0,1-.209.209h-.7a.21.21,0,0,1-.209-.209Zm0,2.23a.21.21,0,0,1,.209-.209h.7A.21.21,0,0,1,6.69,6.9v.7a.21.21,0,0,1-.209.209h-.7A.21.21,0,0,1,5.575,7.6Zm-2.23-2.23a.21.21,0,0,1,.209-.209h.7a.21.21,0,0,1,.209.209v.7a.21.21,0,0,1-.209.209h-.7a.21.21,0,0,1-.209-.209Zm0,2.23a.21.21,0,0,1,.209-.209h.7A.21.21,0,0,1,4.46,6.9v.7a.21.21,0,0,1-.209.209h-.7A.21.21,0,0,1,3.345,7.6Zm-2.23-2.23a.21.21,0,0,1,.209-.209h.7a.21.21,0,0,1,.209.209v.7a.21.21,0,0,1-.209.209h-.7a.21.21,0,0,1-.209-.209Zm0,2.23a.21.21,0,0,1,.209-.209h.7A.21.21,0,0,1,2.23,6.9v.7a.21.21,0,0,1-.209.209h-.7A.21.21,0,0,1,1.115,7.6ZM6.969,1.115H6.132V.279A.28.28,0,0,0,5.854,0H5.3a.28.28,0,0,0-.279.279v.836H2.787V.279A.28.28,0,0,0,2.509,0H1.951a.28.28,0,0,0-.279.279v.836H.836A.836.836,0,0,0,0,1.951v.836H7.8V1.951A.836.836,0,0,0,6.969,1.115Z"
+              transform="translate(69.063 10.265)"
+              fill="#393939"
+            />
+          </g>
+        </g>
+        <g
+          id="Component_4_4"
+          data-name="Component 4 – 4"
+          transform="translate(1360 734)"
+        >
+          <g
+            transform="matrix(1, 0, 0, 1, -25, -481)"
+            filter="url(#Rectangle_1-4)"
+          >
+            <rect
+              id="Rectangle_1-9"
+              data-name="Rectangle 1"
+              width="254"
+              height="41"
+              rx="8"
+              transform="translate(25 481)"
+              fill="#1b1e30"
+            />
+          </g>
+          <text
+            id="Make_a_song"
+            data-name="Make a song"
+            transform="translate(43.76 25.267)"
+            fill="#f8f8f8"
+            font-size="12"
+            font-family="ProductSans-Regular, Product Sans"
+          >
+            <tspan x="0" y="0">Make a song</tspan>
+          </text>
+          <rect
+            id="Rectangle_11-4"
+            data-name="Rectangle 11"
+            width="27"
+            height="29"
+            rx="5"
+            transform="translate(9 6)"
+            fill="#e96d75"
+          />
+          <g id="Group_5-4" data-name="Group 5" transform="translate(156 6)">
+            <rect
+              id="Rectangle_2-4"
+              data-name="Rectangle 2"
+              width="88"
+              height="29"
+              rx="5"
+              fill="#e96d75"
+            />
+            <text
+              id="Due_25_19-4"
+              data-name="Due 25/19"
+              transform="translate(10 19)"
+              fill="#393939"
+              font-size="12"
+              font-family="ProductSans-Regular, Product Sans"
+            >
+              <tspan x="0" y="0">Due 25/19</tspan>
+            </text>
+            <path
+              id="Icon_awesome-calendar-alt-4"
+              data-name="Icon awesome-calendar-alt"
+              d="M0,8.083a.836.836,0,0,0,.836.836H6.969A.836.836,0,0,0,7.8,8.083V3.345H0ZM5.575,4.669a.21.21,0,0,1,.209-.209h.7a.21.21,0,0,1,.209.209v.7a.21.21,0,0,1-.209.209h-.7a.21.21,0,0,1-.209-.209Zm0,2.23a.21.21,0,0,1,.209-.209h.7A.21.21,0,0,1,6.69,6.9v.7a.21.21,0,0,1-.209.209h-.7A.21.21,0,0,1,5.575,7.6Zm-2.23-2.23a.21.21,0,0,1,.209-.209h.7a.21.21,0,0,1,.209.209v.7a.21.21,0,0,1-.209.209h-.7a.21.21,0,0,1-.209-.209Zm0,2.23a.21.21,0,0,1,.209-.209h.7A.21.21,0,0,1,4.46,6.9v.7a.21.21,0,0,1-.209.209h-.7A.21.21,0,0,1,3.345,7.6Zm-2.23-2.23a.21.21,0,0,1,.209-.209h.7a.21.21,0,0,1,.209.209v.7a.21.21,0,0,1-.209.209h-.7a.21.21,0,0,1-.209-.209Zm0,2.23a.21.21,0,0,1,.209-.209h.7A.21.21,0,0,1,2.23,6.9v.7a.21.21,0,0,1-.209.209h-.7A.21.21,0,0,1,1.115,7.6ZM6.969,1.115H6.132V.279A.28.28,0,0,0,5.854,0H5.3a.28.28,0,0,0-.279.279v.836H2.787V.279A.28.28,0,0,0,2.509,0H1.951a.28.28,0,0,0-.279.279v.836H.836A.836.836,0,0,0,0,1.951v.836H7.8V1.951A.836.836,0,0,0,6.969,1.115Z"
+              transform="translate(69.063 10.265)"
+              fill="#393939"
+            />
+          </g>
+        </g>
+        <g
+          id="Component_4_5"
+          data-name="Component 4 – 5"
+          transform="translate(1360 779)"
+        >
+          <g
+            transform="matrix(1, 0, 0, 1, -25, -526)"
+            filter="url(#Rectangle_1-5)"
+          >
+            <rect
+              id="Rectangle_1-10"
+              data-name="Rectangle 1"
+              width="254"
+              height="41"
+              rx="8"
+              transform="translate(25 526)"
+              fill="#1b1e30"
+            />
+          </g>
+          <text
+            id="Go_to_the_gym"
+            data-name="Go to the gym"
+            transform="translate(43.76 25.267)"
+            fill="#f8f8f8"
+            font-size="12"
+            font-family="ProductSans-Regular, Product Sans"
+          >
+            <tspan x="0" y="0">Go to the gym</tspan>
+          </text>
+          <rect
+            id="Rectangle_11-5"
+            data-name="Rectangle 11"
+            width="27"
+            height="29"
+            rx="5"
+            transform="translate(9 6)"
+            fill="#e96d75"
+          />
+          <g id="Group_5-5" data-name="Group 5" transform="translate(156 6)">
+            <rect
+              id="Rectangle_2-5"
+              data-name="Rectangle 2"
+              width="88"
+              height="29"
+              rx="5"
+              fill="#e96d75"
+            />
+            <text
+              id="Due_25_19-5"
+              data-name="Due 25/19"
+              transform="translate(10 19)"
+              fill="#393939"
+              font-size="12"
+              font-family="ProductSans-Regular, Product Sans"
+            >
+              <tspan x="0" y="0">Due 25/19</tspan>
+            </text>
+            <path
+              id="Icon_awesome-calendar-alt-5"
+              data-name="Icon awesome-calendar-alt"
+              d="M0,8.083a.836.836,0,0,0,.836.836H6.969A.836.836,0,0,0,7.8,8.083V3.345H0ZM5.575,4.669a.21.21,0,0,1,.209-.209h.7a.21.21,0,0,1,.209.209v.7a.21.21,0,0,1-.209.209h-.7a.21.21,0,0,1-.209-.209Zm0,2.23a.21.21,0,0,1,.209-.209h.7A.21.21,0,0,1,6.69,6.9v.7a.21.21,0,0,1-.209.209h-.7A.21.21,0,0,1,5.575,7.6Zm-2.23-2.23a.21.21,0,0,1,.209-.209h.7a.21.21,0,0,1,.209.209v.7a.21.21,0,0,1-.209.209h-.7a.21.21,0,0,1-.209-.209Zm0,2.23a.21.21,0,0,1,.209-.209h.7A.21.21,0,0,1,4.46,6.9v.7a.21.21,0,0,1-.209.209h-.7A.21.21,0,0,1,3.345,7.6Zm-2.23-2.23a.21.21,0,0,1,.209-.209h.7a.21.21,0,0,1,.209.209v.7a.21.21,0,0,1-.209.209h-.7a.21.21,0,0,1-.209-.209Zm0,2.23a.21.21,0,0,1,.209-.209h.7A.21.21,0,0,1,2.23,6.9v.7a.21.21,0,0,1-.209.209h-.7A.21.21,0,0,1,1.115,7.6ZM6.969,1.115H6.132V.279A.28.28,0,0,0,5.854,0H5.3a.28.28,0,0,0-.279.279v.836H2.787V.279A.28.28,0,0,0,2.509,0H1.951a.28.28,0,0,0-.279.279v.836H.836A.836.836,0,0,0,0,1.951v.836H7.8V1.951A.836.836,0,0,0,6.969,1.115Z"
+              transform="translate(69.063 10.265)"
+              fill="#393939"
+            />
+          </g>
+        </g>
+        <text
+          id="Welcome_back_Ted_"
+          data-name="Welcome back, Ted!"
+          transform="translate(1360 341)"
+          fill="#f8f8f8"
+          font-size="22"
+          font-family="ProductSans-Bold, Product Sans"
+          font-weight="700"
+        >
+          <tspan x="0" y="0">Welcome back, Ted!</tspan>
+        </text>
+        <g
+          id="Component_3_1"
+          data-name="Component 3 – 1"
+          transform="translate(1360 555)"
+        >
+          <g
+            transform="matrix(1, 0, 0, 1, -25, -302)"
+            filter="url(#Rectangle_4)"
+          >
+            <rect
+              id="Rectangle_4-2"
+              data-name="Rectangle 4"
+              width="254"
+              height="41"
+              rx="8"
+              transform="translate(25 302)"
+              fill="#1b1e30"
+            />
+          </g>
+          <text
+            id="Enable_two_auth"
+            data-name="Enable two auth"
+            transform="translate(44 25)"
+            fill="#f8f8f8"
+            font-size="12"
+            font-family="ProductSans-Regular, Product Sans"
+            text-decoration="line-through"
+          >
+            <tspan x="0" y="0">Enable two auth</tspan>
+          </text>
+          <rect
+            id="Rectangle_6"
+            data-name="Rectangle 6"
+            width="49"
+            height="29"
+            rx="5"
+            transform="translate(195 6)"
+            fill="#87f5b7"
+          />
+          <rect
+            id="Rectangle_9"
+            data-name="Rectangle 9"
+            width="27"
+            height="29"
+            rx="5"
+            transform="translate(9 6)"
+            fill="#87f5b7"
+          />
+          <text
+            id="Done"
+            transform="translate(206 25)"
+            fill="#393939"
+            font-size="12"
+            font-family="ProductSans-Regular, Product Sans"
+          >
+            <tspan x="0" y="0">Done</tspan>
+          </text>
+          <path
+            id="Icon_awesome-check"
+            data-name="Icon awesome-check"
+            d="M4.775,14.856.206,10.286a.7.7,0,0,1,0-.994L1.2,8.3a.7.7,0,0,1,.994,0l3.078,3.078,6.593-6.593a.7.7,0,0,1,.994,0l.994.994a.7.7,0,0,1,0,.994L5.769,14.856A.7.7,0,0,1,4.775,14.856Z"
+            transform="translate(15.3 10.861)"
+            fill="#484848"
+          />
+        </g>
+        <circle
+          id="Ellipse_1"
+          data-name="Ellipse 1"
+          cx="15"
+          cy="15"
+          r="15"
+          transform="translate(1472 841)"
+          fill="#87f5b7"
+        />
+        <line
+          id="Line_1"
+          data-name="Line 1"
+          y2="9.623"
+          transform="translate(1486.852 851.678)"
+          fill="none"
+          stroke="#f8f8f8"
+          stroke-linecap="round"
+          stroke-width="1.5"
+        />
+        <line
+          id="Line_2"
+          data-name="Line 2"
+          x1="9.238"
+          transform="translate(1482.233 856.682)"
+          fill="none"
+          stroke="#f8f8f8"
+          stroke-linecap="round"
+          stroke-width="1.5"
+        />
+        <text
+          id="DUE_TODAY"
+          data-name="DUE TODAY"
+          transform="translate(1360 542)"
+          fill="#cfd4d8"
+          font-size="12"
+          font-family="ProductSans-Regular, Product Sans"
+        >
+          <tspan x="0" y="0">DUE TODAY</tspan>
+        </text>
+        <text
+          id="YOUR_LISTS"
+          data-name="YOUR LISTS"
+          transform="translate(1360 398)"
+          fill="#cfd4d8"
+          font-size="12"
+          font-family="ProductSans-Regular, Product Sans"
+        >
+          <tspan x="0" y="0">YOUR LISTS</tspan>
+        </text>
+        <g
+          id="Component_5_1"
+          data-name="Component 5 – 1"
+          transform="translate(1360 411)"
+        >
+          <rect
+            id="Rectangle_12"
+            data-name="Rectangle 12"
+            width="139"
+            height="60"
+            rx="8"
+            fill="#1b1e30"
+          />
+          <text
+            id="Todo_App"
+            data-name="Todo App"
+            transform="translate(8 33)"
+            fill="#f8f8f8"
+            font-size="12"
+            font-family="ProductSans-Regular, Product Sans"
+          >
+            <tspan x="0" y="0">Todo App</tspan>
+          </text>
+          <line
+            id="Line_4"
+            data-name="Line 4"
+            x2="85"
+            transform="translate(43.5 48.5)"
+            fill="none"
+            stroke="#f8f8f8"
+            stroke-linecap="round"
+            stroke-width="1.5"
+          />
+          <line
+            id="Line_3"
+            data-name="Line 3"
+            x2="81"
+            transform="translate(43.5 48.5)"
+            fill="none"
+            stroke="#87f5b7"
+            stroke-linecap="round"
+            stroke-width="1.5"
+          />
+          <text
+            id="_99_done"
+            data-name="99% done"
+            transform="translate(8 50)"
+            fill="#cfd4d8"
+            font-size="6"
+            font-family="ProductSans-Regular, Product Sans"
+          >
+            <tspan x="0" y="0">99% done</tspan>
+          </text>
+          <text
+            id="_69_tasks"
+            data-name="69 tasks"
+            transform="translate(8 14)"
+            fill="#cfd4d8"
+            font-size="6"
+            font-family="ProductSans-Regular, Product Sans"
+          >
+            <tspan x="0" y="0">69 tasks</tspan>
+          </text>
+        </g>
+        <g
+          id="Component_5_2"
+          data-name="Component 5 – 2"
+          transform="translate(1514 411)"
+        >
+          <rect
+            id="Rectangle_12-2"
+            data-name="Rectangle 12"
+            width="127"
+            height="60"
+            rx="8"
+            fill="#1b1e30"
+          />
+          <text
+            id="Todo_App-2"
+            data-name="Todo App"
+            transform="translate(8 33)"
+            fill="#f8f8f8"
+            font-size="12"
+            font-family="ProductSans-Regular, Product Sans"
+          >
+            <tspan x="0" y="0">Todo App</tspan>
+          </text>
+          <line
+            id="Line_4-2"
+            data-name="Line 4"
+            x2="76"
+            transform="translate(43.5 48.5)"
+            fill="none"
+            stroke="#f8f8f8"
+            stroke-linecap="round"
+            stroke-width="1.5"
+          />
+          <line
+            id="Line_3-2"
+            data-name="Line 3"
+            x2="21"
+            transform="translate(43.5 48.5)"
+            fill="none"
+            stroke="#87f5b7"
+            stroke-linecap="round"
+            stroke-width="1.5"
+          />
+          <text
+            id="_12_started"
+            data-name="12% started"
+            transform="translate(8 50)"
+            fill="#cfd4d8"
+            font-size="6"
+            font-family="ProductSans-Regular, Product Sans"
+          >
+            <tspan x="0" y="0">12% started</tspan>
+          </text>
+          <text
+            id="_69_tasks-2"
+            data-name="69 tasks"
+            transform="translate(8 14)"
+            fill="#cfd4d8"
+            font-size="6"
+            font-family="ProductSans-Regular, Product Sans"
+          >
+            <tspan x="0" y="0">69 tasks</tspan>
+          </text>
+        </g>
+        <g
+          id="Path_4"
+          data-name="Path 4"
+          transform="translate(1342 260)"
+          fill="none"
+        >
+          <path
+            d="M9,0H283a9,9,0,0,1,9,9V614a9,9,0,0,1-9,9H9a9,9,0,0,1-9-9V9A9,9,0,0,1,9,0Z"
+            stroke="none"
+          />
+          <path
+            d="M 9 0 C 4.0294189453125 0 0 4.0294189453125 0 9 L 0 614 C 0 618.9705810546875 4.0294189453125 623 9 623 L 283 623 C 287.9705810546875 623 292 618.9705810546875 292 614 L 292 9 C 292 4.0294189453125 287.9705810546875 0 283 0 L 9 0 M 9 -7 L 283 -7 C 291.8224182128906 -7 299 0.1776123046875 299 9 L 299 614 C 299 622.8223876953125 291.8224182128906 630 283 630 L 9 630 C 0.177581787109375 630 -7 622.8223876953125 -7 614 L -7 9 C -7 0.1776123046875 0.177581787109375 -7 9 -7 Z"
+            stroke="none"
+            fill="#2e303e"
+          />
+        </g>
+        <line
+          id="Line_5"
+          data-name="Line 5"
+          x2="14"
+          transform="translate(1360.5 280.5)"
+          fill="none"
+          stroke="#cfd4d8"
+          stroke-linecap="round"
+          stroke-width="1.5"
+        />
+        <line
+          id="Line_6"
+          data-name="Line 6"
+          x2="14"
+          transform="translate(1360.5 286.484)"
+          fill="none"
+          stroke="#cfd4d8"
+          stroke-linecap="round"
+          stroke-width="1.5"
+        />
+        <line
+          id="Line_7"
+          data-name="Line 7"
+          x2="14"
+          transform="translate(1360.5 292.469)"
+          fill="none"
+          stroke="#cfd4d8"
+          stroke-linecap="round"
+          stroke-width="1.5"
+        />
+      </g>
+    </svg>
+  </div>
 </template>
 
 <script lang="ts">
@@ -18,5 +787,3 @@ export default class Frame extends Vue {
   @Prop() public todos!: Todo[];
 }
 </script>
-
-<style></style>
