@@ -1,21 +1,21 @@
 @use 'utils/colors' as c;
 @use 'base/root' as d;
 
+.home {
+  margin-top: 15vh;
+}
+
 .home .landing {
+  padding: 0rem 20rem;
+}
+
+.home .landing .wrapper {
   display: flex;
   height: 80vh;
-  width: 100vw;
-  align-items: space-between;
-  justify-content: center;
-  margin-top: 10vh;
-
-  .Phone {
-    margin-right: 15%;
-  }
+  align-items: center;
+  justify-content: space-between;
 
   .info {
-    margin-top: 5%;
-    margin-left: 15%;
     h1 {
       font-size: 5em;
       line-height: 1.2em;
@@ -42,4 +42,38 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 10rem 0 9rem;
+}
+
+.home .open-source {
+  padding: 5rem 20rem;
+}
+
+.home .open-source .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70vh;
+
+  .placeholder {
+    background-color: c.$bg_alt;
+    height: 60vh;
+    width: 30vw;
+    background: url("../assets/eddie_black_n_white_sqaure.jpg");
+    background-size: cover;
+    border-radius: 8px;
+  }
+
+  #open-source-info {
+    width: 25vw;
+    margin-top: -6%;
+    h2 {
+      color: c.$text_main;
+      font-size: 4em;
+    }
+
+    p {
+      padding-bottom: 4vh;
+      font-size: 1.1em;
+    }
+  }
 }

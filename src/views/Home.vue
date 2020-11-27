@@ -1,15 +1,17 @@
 <template>
   <div class="home">
     <main class="landing">
-      <div class="info">
-        <h1>Open Source <br />Todo App</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua.
-        </p>
-        <Button route="/register" name="Sign up!" />
+      <div class="wrapper">
+        <div class="info">
+          <h1>Easy to use <br />Todo App</h1>
+          <p>
+            Eros, is an easy to use todo app that's fast, response and will suit all your needs. If it doesn't just
+            request the feature!
+          </p>
+          <Button route="/register" name="Sign up!" />
+        </div>
+        <Phone />
       </div>
-      <Phone />
     </main>
     <section class="quote-section">
       <div class="quotes">
@@ -28,13 +30,17 @@
       </div>
     </section>
     <section class="open-source">
-      <div>
-        <h2>Open Source</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam dolorem hic ducimus quis fuga mollitia
-          fugit, dolores sint recusandae eius quo iure, unde atque distinctio? Rem corrupti enim qui iure.
-        </p>
-        <Button name="Github" route="sourcecode" />
+      <div class="wrapper">
+        <div id="open-source-info">
+          <h2>Open Source</h2>
+          <p>
+            Eros is fully open soruce and maintained by
+            <a href="https://github.com/TitusEntertainment">Eddie Englund</a>. This means that you know exactly what's
+            done with your data and you can trust it to do the right thing.
+          </p>
+          <Button name="Github" route="sourcecode" />
+        </div>
+        <div class="placeholder"></div>
       </div>
     </section>
   </div>

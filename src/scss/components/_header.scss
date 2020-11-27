@@ -2,10 +2,15 @@
 @use 'base/root' as d;
 
 header {
+  position: fixed;
+  width: 100vw;
+  height: 10vh;
+}
+
+header .wrapper {
   position: sticky;
   padding: d.$default-padding;
   display: flex;
-  height: 5rem;
   justify-content: space-between;
   align-items: center;
   background-color: c.$bg_main_faded;
@@ -19,5 +24,16 @@ header {
 
   a:hover {
     color: c.$text_main;
+  }
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  svg {
+    margin-top: -2%;
+    width: 1.8vw;
+    height: 6vh;
+    padding-right: 0.8vw;
   }
 }

@@ -2,7 +2,7 @@
 
 .Button button {
   width: 20rem;
-  height: 2.5rem;
+  height: 3rem;
   border-radius: 8px;
   background: c.$main_green;
   border: none;
@@ -17,4 +17,3 @@
 .Button button:hover {
   background: c.$main_green-faded;
 }
-
