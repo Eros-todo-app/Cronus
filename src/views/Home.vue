@@ -5,7 +5,7 @@
         <div class="info">
           <h1>The only todo app you will ever need.</h1>
           <p>
-            Eros is the free and open source todo app that works on all your devices that's easily customizable to your
+            Cronus is the free and open source todo app that works on all your devices that's easily customizable to your
             liking, fast and easy to use.
           </p>
           <Button class="button" route="/register" name="Sign up!" />

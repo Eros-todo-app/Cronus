@@ -82,7 +82,7 @@
         </svg>
       </div>
       <h3>Free</h3>
-      <p>Eros won't charge you a penny for using it</p>
+      <p>Cronus won't charge you a penny for using it</p>
     </div>
   </div>
 </template>

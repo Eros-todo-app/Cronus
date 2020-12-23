@@ -3,7 +3,7 @@
     <header>
       <div class="wrapper">
         <router-link id="logo" to="/">
-          <h1>Eros</h1>
+          <h1>Cronus</h1>
         </router-link>
         <div id="nav">
           <router-link to="/about">About</router-link>
