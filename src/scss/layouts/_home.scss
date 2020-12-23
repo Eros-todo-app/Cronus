@@ -1,31 +1,40 @@
 @use 'utils/colors' as c;
 @use 'base/root' as d;
 
-.home {
-  margin-top: 15vh;
-}
-
 .home .landing {
-  padding: 0rem 20rem;
+  padding: d.$default-padding;
 }
 
 .home .landing .wrapper {
   display: flex;
-  height: 80vh;
+  height: 100vh;
+  width: 100vw;
   align-items: center;
   justify-content: space-between;
 
   .info {
     h1 {
-      font-size: 5em;
+      font-size: 4em;
+      width: 90%;
       line-height: 1.2em;
       margin: 0;
     }
 
     p {
-      width: 50%;
-      padding: 0% 0 5% 0;
+      width: 63%;
+      padding: 1% 0 5% 0;
+      color: c.$text_muted;
     }
+  }
+
+  img {
+    width: 56vw;
+    padding-right: 5%;
+    padding-top: 5%;
+  }
+
+  .button-faded {
+    margin-left: 5%;
   }
 }
 
@@ -58,7 +67,7 @@
     background-color: c.$bg_alt;
     height: 60vh;
     width: 30vw;
-    background: url("../assets/eddie_black_n_white_sqaure.jpg");
+    //background: url("../assets/eddie_black_n_white_sqaure.jpg");
     background-size: cover;
     border-radius: 8px;
   }

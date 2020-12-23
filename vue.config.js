@@ -3,9 +3,9 @@ module.exports = {
     loaderOptions: {
       scss: {
         sassOptions: {
-          includePaths: "./src/scss/"
-        }
-      }
-    }
-  }
+          includePaths: "./src/scss/",
+        },
+      },
+    },
+  },
 };

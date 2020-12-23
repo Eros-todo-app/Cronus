@@ -3,136 +3,11 @@
     <header>
       <div class="wrapper">
         <router-link id="logo" to="/">
-          <svg viewBox="0 0 440.85 452.81" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-              <filter id="b" x="75.546" y="392.54" width="36.117" height="60.273" filterUnits="userSpaceOnUse">
-                <feOffset dy="3" input="SourceAlpha" />
-                <feGaussianBlur result="blur" stdDeviation="3" />
-                <feFlood flood-opacity=".161" />
-                <feComposite in2="blur" operator="in" />
-                <feComposite in="SourceGraphic" />
-              </filter>
-              <filter id="a" x="99.702" y="392.54" width="36.117" height="60.273" filterUnits="userSpaceOnUse">
-                <feOffset dy="3" input="SourceAlpha" />
-                <feGaussianBlur result="blur-2" stdDeviation="3" />
-                <feFlood flood-opacity=".161" />
-                <feComposite in2="blur-2" operator="in" />
-                <feComposite in="SourceGraphic" />
-              </filter>
-              <filter id="h" x="27.234" y="157.02" width="114.62" height="114.62" filterUnits="userSpaceOnUse">
-                <feOffset dy="3" input="SourceAlpha" />
-                <feGaussianBlur result="blur-3" stdDeviation="3" />
-                <feFlood flood-opacity=".161" />
-                <feComposite in2="blur-3" operator="in" />
-                <feComposite in="SourceGraphic" />
-              </filter>
-              <filter id="g" x="298.99" y="157.02" width="114.62" height="114.62" filterUnits="userSpaceOnUse">
-                <feOffset dy="3" input="SourceAlpha" />
-                <feGaussianBlur result="blur-4" stdDeviation="3" />
-                <feFlood flood-opacity=".161" />
-                <feComposite in2="blur-4" operator="in" />
-                <feComposite in="SourceGraphic" />
-              </filter>
-              <filter id="c" x="39.312" y="36.234" width="60.273" height="60.273" filterUnits="userSpaceOnUse">
-                <feOffset dy="3" input="SourceAlpha" />
-                <feGaussianBlur result="blur-5" stdDeviation="3" />
-                <feFlood flood-opacity=".161" />
-                <feComposite in2="blur-5" operator="in" />
-                <feComposite in="SourceGraphic" />
-              </filter>
-              <filter id="d" x="21.195" y="0" width="48.195" height="48.195" filterUnits="userSpaceOnUse">
-                <feOffset dy="3" input="SourceAlpha" />
-                <feGaussianBlur result="blur-6" stdDeviation="3" />
-                <feFlood flood-opacity=".161" />
-                <feComposite in2="blur-6" operator="in" />
-                <feComposite in="SourceGraphic" />
-              </filter>
-              <filter id="f" x="341.26" y="36.234" width="60.273" height="60.273" filterUnits="userSpaceOnUse">
-                <feOffset dy="3" input="SourceAlpha" />
-                <feGaussianBlur result="blur-7" stdDeviation="3" />
-                <feFlood flood-opacity=".161" />
-                <feComposite in2="blur-7" operator="in" />
-                <feComposite in="SourceGraphic" />
-              </filter>
-              <filter id="e" x="377.5" y="0" width="48.195" height="48.195" filterUnits="userSpaceOnUse">
-                <feOffset dy="3" input="SourceAlpha" />
-                <feGaussianBlur result="blur-8" stdDeviation="3" />
-                <feFlood flood-opacity=".161" />
-                <feComposite in2="blur-8" operator="in" />
-                <feComposite in="SourceGraphic" />
-              </filter>
-            </defs>
-            <g transform="translate(0 6)">
-              <g transform="translate(0 368.38)">
-                <rect width="434.81" height="66.429" rx="5.5" fill="#fff" data-name="Rectangle 1" />
-              </g>
-              <g transform="translate(0 114.74)">
-                <g transform="translate(0)" data-name="left eye">
-                  <circle cx="87.566" cy="87.566" r="87.566" fill="#fff" data-name="Ellipse 12" />
-                  <g transform="translate(0 -120.74)" filter="url(#h)">
-                    <ellipse
-                      transform="translate(36.23 163.01)"
-                      cx="48.312"
-                      cy="48.312"
-                      rx="48.312"
-                      ry="48.312"
-                      fill="#89eca3"
-                      data-name="Ellipse 11"
-                    />
-                  </g>
-                </g>
-                <g transform="translate(265.72)" data-name="right eye">
-                  <circle cx="87.566" cy="87.566" r="87.566" fill="#fff" data-name="Ellipse 4" />
-                  <g transform="translate(-265.72 -120.74)" filter="url(#g)">
-                    <ellipse
-                      transform="translate(307.99 163.01)"
-                      cx="48.312"
-                      cy="48.312"
-                      rx="48.312"
-                      ry="48.312"
-                      fill="#89eca3"
-                      data-name="Ellipse 13"
-                    />
-                  </g>
-                </g>
-              </g>
-              <g transform="translate(30.195)">
-                <g transform="translate(0)" data-name="left eyebrow">
-                  <g transform="translate(-30.2 -6)" filter="url(#c)">
-                    <ellipse
-                      transform="translate(48.31 42.23)"
-                      cx="21.137"
-                      cy="21.137"
-                      rx="21.137"
-                      ry="21.137"
-                      fill="#fff"
-                      data-name="Ellipse 7"
-                    />
-                  </g>
-                  <line transform="translate(21.137 27.176)" x2="18.117" y2="24.156" fill="none" data-name="Line 4" />
-                </g>
-                <g transform="translate(320.07)" data-name="right eyebrow">
-                  <g transform="translate(-350.26 -6)" filter="url(#f)">
-                    <ellipse
-                      transform="translate(350.26 42.23)"
-                      cx="21.137"
-                      cy="21.137"
-                      rx="21.137"
-                      ry="21.137"
-                      fill="#fff"
-                      data-name="Ellipse 14"
-                    />
-                  </g>
-                  <line transform="translate(21.137 27.176)" x1="24.156" y2="24.156" fill="none" data-name="Line 5" />
-                </g>
-              </g>
-            </g>
-          </svg>
-          <h1>EROS</h1>
+          <h1>Eros</h1>
         </router-link>
         <div id="nav">
           <router-link to="/about">About</router-link>
-          <router-link to="/sourcecode">Github</router-link>
+          <router-link to="/sourcecode">Source code</router-link>
           <router-link to="/privacy">Privacy</router-link>
           <router-link to="/register">Login/Register</router-link>
         </div>
@@ -145,4 +20,5 @@
 <style lang="scss">
 @use "main";
 @use "components/header";
+@use "components/usp.scss";
 </style>

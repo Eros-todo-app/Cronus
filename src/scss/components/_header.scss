@@ -4,36 +4,28 @@
 header {
   position: fixed;
   width: 100vw;
-  height: 10vh;
+  height: 15vh;
 }
 
 header .wrapper {
-  position: sticky;
-  padding: d.$default-padding;
   display: flex;
+  padding: 2.5rem 12rem;
   justify-content: space-between;
   align-items: center;
+  align-content: center;
   background-color: c.$bg_main_faded;
-  a {
+  #nav a {
     font-size: 1.2em;
-    text-decoration: none;
     color: c.$text_muted;
+    margin-left: 3rem;
+  }
+
+  a {
+    text-decoration: none;
     transition: all ease 0.2s;
-    margin-left: 2rem;
   }
 
-  a:hover {
-    color: c.$text_main;
-  }
-}
-
-#logo {
-  display: flex;
-  align-items: center;
-  svg {
-    margin-top: -2%;
-    width: 1.8vw;
-    height: 6vh;
-    padding-right: 0.8vw;
+  #nav a:hover {
+    color: c.$text_highlited;
   }
 }
