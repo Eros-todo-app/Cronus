@@ -1,5 +1,5 @@
 <template>
-  <router-link class="Button-faded" :to="route">
+  <router-link class="Button faded" :to="route">
     <button>
       {{ name }}
     </button>
@@ -19,5 +19,6 @@ export default class Button extends Vue {
 </script>
 
 <style lang="scss" scoped>
+@use "components/button";
 @use "components/button-muted";
 </style>

@@ -1,31 +1,24 @@
 @use 'utils/colors' as c;
-@use 'base/root' as d;
+@use 'utils/defaults' as d;
 
 header {
-  position: fixed;
-  width: 100vw;
-  height: 15vh;
-}
-
-header .wrapper {
-  display: flex;
-  padding: 2.5rem 12rem;
-  justify-content: space-between;
-  align-items: center;
-  align-content: center;
-  background-color: c.$bg_main_faded;
-  #nav a {
-    font-size: 1.2em;
-    color: c.$text_muted;
-    margin-left: 3rem;
-  }
-
+  h1,
   a {
-    text-decoration: none;
-    transition: all ease 0.2s;
+    color: c.$text_main;
   }
+  padding-top: 2.5vh;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-  #nav a:hover {
-    color: c.$text_highlited;
+    nav a {
+      font-size: 1.1em;
+      margin-left: 3rem;
+      transition: 0.4s ease;
+      &:hover {
+        color: c.$cta;
+      }
+    }
   }
 }

@@ -1,88 +1,38 @@
 @use 'utils/colors' as c;
-@use 'base/root' as d;
+@use 'utils/defaults' as d;
 
-.home .landing {
-  padding: d.$default-padding;
-}
-
-.home .landing .wrapper {
+.home .container {
   display: flex;
-  height: 100vh;
-  width: 100vw;
-  align-items: center;
   justify-content: space-between;
-
-  .info {
-    h1 {
-      font-size: 4em;
-      width: 90%;
-      line-height: 1.2em;
-      margin: 0;
-    }
-
-    p {
-      width: 63%;
-      padding: 1% 0 5% 0;
-      color: c.$text_muted;
-    }
-  }
+  align-items: center;
 
   img {
-    width: 56vw;
-    padding-right: 5%;
-    padding-top: 5%;
+    width: 38rem;
+    transform: translate(5rem, 2rem);
   }
 
-  .button-faded {
-    margin-left: 5%;
-  }
-}
-
-.home .quote-section {
-  margin-top: 5vh;
-  padding: 0rem 0rem;
-  background-color: c.$bg_alt;
-  height: 40vh;
-}
-
-.home .quote-section .quotes {
-  height: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 10rem 0 9rem;
-}
-
-.home .open-source {
-  padding: 5rem 20rem;
-}
-
-.home .open-source .wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 70vh;
-
-  .placeholder {
-    background-color: c.$bg_alt;
-    height: 60vh;
-    width: 30vw;
-    //background: url("../assets/eddie_black_n_white_sqaure.jpg");
-    background-size: cover;
-    border-radius: 8px;
+  h1 {
+    font-size: d.$header-main;
   }
 
-  #open-source-info {
-    width: 25vw;
-    margin-top: -6%;
-    h2 {
-      color: c.$text_main;
-      font-size: 4em;
-    }
+  .info {
+    width: 50rem;
+    margin-top: -4%;
 
     p {
-      padding-bottom: 4vh;
-      font-size: 1.1em;
+      width: 40rem;
+    }
+    .Button {
+      display: inline-block;
+      margin-top: 5%;
     }
   }
+  #learn-more {
+    margin-left: 1rem;
+  }
+}
+
+#Usp-section .container {
+  background: c.$bg_alt-2;
+  border-radius: 8px;
 }

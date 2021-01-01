@@ -1,16 +1,16 @@
 <template>
   <div id="app">
     <header>
-      <div class="wrapper">
+      <div class="container">
         <router-link id="logo" to="/">
           <h1>Cronus</h1>
         </router-link>
-        <div id="nav">
+        <nav id="nav">
           <router-link to="/about">About</router-link>
           <router-link to="/sourcecode">Source code</router-link>
           <router-link to="/privacy">Privacy</router-link>
           <router-link to="/register">Login/Register</router-link>
-        </div>
+        </nav>
       </div>
     </header>
     <router-view />

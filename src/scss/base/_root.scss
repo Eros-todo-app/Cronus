@@ -1,10 +1,10 @@
 @use 'utils/colors' as c;
+@use 'utils/defaults' as d;
 
-#app,
-body,
-html {
+body {
   font-size: 1em;
   font-family: "Roboto", sans-serif;
+  color: c.$text_main;
   padding: 0;
   margin: 0;
   background-color: c.$bg_main;
@@ -12,9 +12,11 @@ html {
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
   box-sizing: border-box;
-  min-height: 100vh;
-  width: 100vw;
   overflow-x: hidden;
 }
 
-$default-padding: 2rem 12rem;
+.container {
+  margin: 0 auto;
+  max-width: 100%;
+  width: d.$container_width;
+}
