@@ -1,8 +1,10 @@
 <template>
   <div class="page-not-found">
-    <h1>404</h1>
-    <p>The page you tried to go to doesn't exist!</p>
-    <Button route="/" name="Go back home" />
+    <div class="container">
+      <h1>404</h1>
+      <p>The page you tried to go to doesn't exist!</p>
+      <Button route="/" name="Go back home" />
+    </div>
   </div>
 </template>
 
@@ -12,8 +14,8 @@ import Button from "@/components/button.vue";
 
 @Component({
   components: {
-    Button
-  }
+    Button,
+  },
 })
 export default class PageNotFound extends Vue {}
 </script>

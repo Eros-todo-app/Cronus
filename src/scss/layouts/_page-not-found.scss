@@ -1,1 +1,15 @@
 @use 'utils/typography' as t;
+
+.page-not-found {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+
+  h1 {
+    font-size: t.$large_header;
+    line-height: 1rem;
+  }
+}
