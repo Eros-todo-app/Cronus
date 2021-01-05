@@ -36,3 +36,43 @@
   background: c.$bg_alt-2;
   border-radius: 8px;
 }
+
+#analytics.container {
+  align-items: start;
+}
+
+#analytics {
+  margin-top: 8%;
+  h1 {
+    font-size: 2.5em;
+  }
+
+  .svg-container {
+    margin-top: 1rem;
+    width: 20rem;
+    svg {
+      border-radius: 2px;
+      padding: 0.4rem;
+      background: c.$main_blue_faded;
+      color: c.$main_blue;
+    }
+  }
+
+  #analytics-text {
+    width: 27vw;
+    p {
+      color: c.$text_muted;
+    }
+  }
+
+  .Button {
+    margin-top: 3%;
+    display: inline-block;
+  }
+
+  #analytics-graph {
+    height: 25rem;
+    width: 45vw;
+    background: c.$bg_alt-2;
+  }
+}
